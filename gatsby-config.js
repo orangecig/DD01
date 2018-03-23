@@ -3,7 +3,6 @@ module.exports = {
     siteMetadata: {
         author: `DD01`,
         description: `DD01 reThinking `,
-        
         siteUrl: ``,
         title: `DD01`,
         
@@ -40,8 +39,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Digital Psychology`,
-                short_name: `Digital Psychology`, // eslint-disable-line camelcase
+                name: `Digital`,
+                short_name: `Digital `, // eslint-disable-line camelcase
                 start_url: `/?utm_source=homescreen`, // eslint-disable-line camelcase
                 background_color: `#ffffff`, // eslint-disable-line camelcase
                 theme_color: `#ffffff`, // eslint-disable-line camelcase
