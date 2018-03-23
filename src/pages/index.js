@@ -18,7 +18,6 @@ export default function Index(props) {
             <SeoMetaTags
                 author={meta.author}
                 description={meta.description}
-                facebookAppId={meta.facebookAppId}
                 image={{ url: meta.siteUrl + image, width: 1000, height: 500 }}
                 logo={{ url: `${meta.siteUrl}/logo-structured-data.png`, width: 600, height: 60 }}
                 publisher={meta.title}
@@ -38,7 +37,6 @@ export const pageQuery = graphql`
             siteMetadata {
                 author
                 description
-                facebookAppId
                 title
                 twitterHandle
                 siteUrl
