@@ -1,13 +1,12 @@
 module.exports = {
     pathPrefix: `/`,
     siteMetadata: {
-        author: `Daniel Stefanovic`,
-        description: `A free library of psychological principles and examples`
-            + ` to elevate your SaaS, e-commerce or other digital products.`,
-        facebookAppId: `310591556081648`,
-        siteUrl: `http://digitalpsychology.io`,
-        title: `Digital Psychology`,
-        twitterHandle: `danistefanovic`
+        author: `DD01`,
+        description: `DD01 reThinking `,
+        
+        siteUrl: ``,
+        title: `DD01`,
+        
     },
     plugins: [
         {
@@ -81,7 +80,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: `UA-104474552-1`
+                trackingId: ``
             }
         }
     ]
